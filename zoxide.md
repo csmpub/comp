@@ -25,10 +25,10 @@ winget install ajeetdsouza.zoxide
 #### 설정
 
 ```sh
+# bash
 eval "$(zoxide init bash)"
+# zsh
 eval "$(zoxide init zsh)"
-```
-
-```pwsh
+# powershell
 Invoke-Expression (& { (zoxide init powershell | Out-String) })
 ```
