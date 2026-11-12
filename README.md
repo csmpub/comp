@@ -1,6 +1,6 @@
-# Wintree's basic system configurations
+# Wintree's Configurations and Quick references
 
-시스템 기초 설정 파일 관리를 위한 리포지토리
+시스템 설정 관리 및 주요 프로그램 요약 사용법
 
 <details>
 
@@ -28,8 +28,6 @@
 
 
 ### 폴더 구조
-
-
 
 사용자 폴더: ~($HOME)
 ```

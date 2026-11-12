@@ -1,7 +1,50 @@
 project:
-  type: website
+  type: book
   resources:
     - CNAME
 
 execute: 
   freeze: auto
+
+book:
+  title: "Book"
+#  author: "Wintree"
+#  date: "2026-10-19"
+
+  navbar: 
+    background: primary
+    search: true
+    left: 
+      - href: index.qmd
+
+  chapters:
+    - index.qmd
+    - preface.qmd
+    - part: "설정 파일"
+      chapters:
+        - intro.qmd
+        - summary.qmd
+    - part: "유틸리티"
+      chapters:
+        - Xfce.qmd
+    - references.qmd
+  
+  sidebar: 
+    style: docked
+    search: false
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    toc: true
+    toc-location: right
+    toc-depth: 4
+    toc-title: "이 페이지에서"
+  pdf:
+    documentclass: scrreprt
+
+lang: ko
