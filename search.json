@@ -2,31 +2,11 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Book",
+    "title": "book",
     "section": "",
-    "text": "About\nThis book is written for …",
+    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.",
     "crumbs": [
-      "About"
-    ]
-  },
-  {
-    "objectID": "index.html#header2",
-    "href": "index.html#header2",
-    "title": "Book",
-    "section": "Header2",
-    "text": "Header2\nparagraph",
-    "crumbs": [
-      "About"
-    ]
-  },
-  {
-    "objectID": "preface.html",
-    "href": "preface.html",
-    "title": "Preface",
-    "section": "",
-    "text": "This is a Quarto book.",
-    "crumbs": [
-      "About",
+      "Comp",
       "Preface"
     ]
   },
@@ -37,8 +17,7 @@
     "section": "",
     "text": "This is a book created from markdown and executable code.\nSee Knuth (1984년) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984년. “Literate Programming”. Comput. J. (USA) 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
     "crumbs": [
-      "About",
-      "설정 파일",
+      "Comp",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
     ]
   },
@@ -49,33 +28,8 @@
     "section": "",
     "text": "In summary, this book has no content whatsoever.",
     "crumbs": [
-      "About",
-      "설정 파일",
+      "Comp",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
-    ]
-  },
-  {
-    "objectID": "Xfce.html",
-    "href": "Xfce.html",
-    "title": "3  Xfce",
-    "section": "",
-    "text": "3.1 작업공간\n단축키 설정: 설정 - 창 관리자 - 키보드",
-    "crumbs": [
-      "About",
-      "유틸리티",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Xfce</span>"
-    ]
-  },
-  {
-    "objectID": "Xfce.html#작업공간",
-    "href": "Xfce.html#작업공간",
-    "title": "3  Xfce",
-    "section": "",
-    "text": "3.1.1 작업공간 이동\n&lt;Ctrl&gt; + &lt;Alt&gt; + &lt;arrow key&gt;: 왼쪽/오른쪽/위/아래 작업공간으로 &lt;Ctrl&gt; + &lt;F1&gt; ~ &lt;F12&gt;: 1번 ~ 12번 작업공간으로 이동\n\n\n3.1.2 창 이동\n&lt;Ctrl&gt; + &lt;Alt&gt; + &lt;Home&gt;: 현재창을 이전 작업공간으로 &lt;Ctrl&gt; + &lt;Alt&gt; + &lt;End&gt;: 현채장을 다음 작업공간으로 &lt;Ctrl&gt; + &lt;Alt&gt; + &lt;1&gt; ~ &lt;9&gt;: 현재창을 1번 ~ 9번 작업공간으로\n\n\n3.1.3 추가 삭제\n&lt;Alt&gt; + &lt;Ins&gt;: 작업공간 추가 &lt;Alt&gt; + &lt;Del&gt;: 작업공간 삭제",
-    "crumbs": [
-      "About",
-      "유틸리티",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Xfce</span>"
     ]
   },
   {
@@ -85,7 +39,7 @@
     "section": "",
     "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. (USA) 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
     "crumbs": [
-      "About",
+      "Comp",
       "References"
     ]
   }
