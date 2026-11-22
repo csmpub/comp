@@ -3,48 +3,58 @@ project:
   resources:
     - CNAME
 
-execute: 
-  freeze: auto
-
 book:
-  title: "Book"
-#  author: "Wintree"
-#  date: "2026-10-19"
+  title: book
 
   navbar: 
-    background: primary
-    search: true
     left: 
-      - href: index.qmd
+      - href: https://www.csmpub.com/index.html
+        text: Home
 
+    right:
+      - text: Comp
+
+      - text: Data
+        menu: 
+          - text: Data Resources
+            href: https://data.csmpub.com/resources.html
+          - text: Data Downloads
+            href: https://data.csmpub.com/downloads.html
+
+#  draft-mode: visible
+
+
+  sidebar: 
+    title: browse
+#    search: true
+    style: docked
+    contents:
+      - index.qmd
+      - section: start
+        contents:  
+          - intro.qmd
+          - summary.qmd
+      - references.qmd
+
+#  author: "Norah Jones"
+#  date: "11/22/2026"
   chapters:
     - index.qmd
-    - preface.qmd
-    - part: "설정 파일"
-      chapters:
-        - intro.qmd
-        - summary.qmd
-    - part: "유틸리티"
-      chapters:
-        - Xfce.qmd
+    - intro.qmd
+    - summary.qmd
     - references.qmd
-  
-  sidebar: 
-    style: docked
-    search: false
 
 bibliography: references.bib
 
 format:
-  html:
+  html: 
     theme:
-      - cosmo
-      - brand
-    toc: true
-    toc-location: right
-    toc-depth: 4
-    toc-title: "이 페이지에서"
+      light: flatkly
+      dark: darkly
+# flatkly - darkly / cosmo - cyborg / lumen - slate / yeti - uperhero
+
   pdf:
     documentclass: scrreprt
 
 lang: ko
+language: korean.yml
