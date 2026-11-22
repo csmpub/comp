@@ -4,7 +4,7 @@ project:
     - CNAME
 
 book:
-  title: book
+#  title: book
 
   navbar: 
     left: 
@@ -12,7 +12,7 @@ book:
         text: Home
 
     right:
-      - text: Comp
+      - text: Book
         href: index.qmd
       - text: Data
         menu: 
@@ -29,7 +29,7 @@ book:
 #    search: true
     style: docked
     contents:
-      - index.qmd
+      - preface.qmd
       - section: start
         contents:  
           - intro.qmd
@@ -40,6 +40,7 @@ book:
 #  date: "11/22/2026"
   chapters:
     - index.qmd
+    - preface.qmd
     - intro.qmd
     - summary.qmd
     - references.qmd
