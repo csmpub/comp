@@ -13,7 +13,7 @@ book:
 
     right:
       - text: Comp
-
+        href: index.qmd
       - text: Data
         menu: 
           - text: Data Resources
