@@ -2,12 +2,12 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Books Repository",
+    "title": "comp",
     "section": "",
-    "text": "Books Repository",
+    "text": "comp\nSee page …",
     "crumbs": [
-      "Book",
-      "Books Repository"
+      "Home",
+      "comp"
     ]
   },
   {
@@ -17,7 +17,7 @@
     "section": "",
     "text": "This is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.",
     "crumbs": [
-      "Book",
+      "Home",
       "Preface"
     ]
   },
@@ -26,9 +26,20 @@
     "href": "intro.html",
     "title": "1  Introduction",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984년) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984년. “Literate Programming”. Comput. J. (USA) 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "1.1 reference\nThis is a book created from markdown and executable code.\nSee Knuth (1984년) for additional discussion of literate programming.",
     "crumbs": [
-      "Book",
+      "Home",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#reference",
+    "href": "intro.html#reference",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "Knuth, Donald E. 1984년. “Literate Programming”. Comput. J. (USA) 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "Home",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
     ]
   },
@@ -39,7 +50,7 @@
     "section": "",
     "text": "In summary, this book has no content whatsoever.",
     "crumbs": [
-      "Book",
+      "Home",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
     ]
   },
@@ -50,7 +61,7 @@
     "section": "",
     "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. (USA) 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
     "crumbs": [
-      "Book",
+      "Home",
       "References"
     ]
   }
