@@ -6,13 +6,14 @@ project:
 book:
 #  title: book
 
-  navbar: 
+  navbar:
+#    search: false
     left: 
       - href: https://www.csmpub.com/index.html
         text: Home
 
     right:
-      - text: Book
+      - text: Comp
         href: index.qmd
       - text: Data
         menu: 
@@ -21,20 +22,24 @@ book:
           - text: Data Downloads
             href: https://data.csmpub.com/downloads.html
 
-#  draft-mode: visible
+  draft-mode: visible
 
-
-  sidebar: 
-    title: browse
+#  sidebar:
+#    collapse-level: 3
+#    contents:
+#      - text: test message
+#      - index.qmd
 #    search: true
-    style: docked
-    contents:
-      - preface.qmd
-      - section: start
-        contents:  
-          - intro.qmd
-          - summary.qmd
-      - references.qmd
+#    title: browse
+#    search: true
+#    style: docked
+#    contents:
+#      - preface.qmd
+#      - section: start
+#        contents:  
+#          - intro.qmd
+#          - summary.qmd
+#      - references.qmd
 
 #  author: "Norah Jones"
 #  date: "11/22/2026"
@@ -48,10 +53,11 @@ book:
 bibliography: references.bib
 
 format:
-  html: 
+  html:
+    respect-user-color-scheme: true
     theme:
-      light: flatkly
-      dark: darkly
+      dark: [darkly, csmpub-dark.scss]
+      light: [darkly, csmpub-light.scss]
 # flatkly - darkly / cosmo - cyborg / lumen - slate / yeti - uperhero
 
   pdf:
