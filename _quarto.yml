@@ -7,7 +7,7 @@ metadata-files:
   - _chapters.yml
 
 book:
-  title: "How to ..."
+#  title: "How to ..."
   navbar:
     title: false
     left: 
@@ -15,8 +15,8 @@ book:
         href: "https://www.csmpub.com/index.html"
       - text: "Home"
         href: "https://www.csmpub.com/index.html"
-      - text: "How to ..."
-        href: index.qmd
+#      - text: "How to ..."
+#        href: index.qmd
     right:
       - text: "Data Resources"
         href: "https://data.csmpub.com/resources.html"

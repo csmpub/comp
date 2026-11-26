@@ -2,14 +2,14 @@ book:
   chapters:
     - index.qmd
   
-    - part: "computer"
+    - part: "컴퓨터 기초"
       chapters:
-        - computer/index.qmd
-        - computer/preface.qmd
+        - computer/shell/about_shell.qmd
+        - computer/cmd_util/cmd_utils.qmd
 
-    - part: "R and RStudio"
+    - part: "R 및 RStudio"
       chapters: 
-        - R_and_RStudio/intro.qmd
-        - R_and_RStudio/summary.qmd
+        - r_rstudio/base_r/r_base.qmd
+        - r_rstudio/rs_summary.qmd
 
   references: references.qmd

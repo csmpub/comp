@@ -4,8 +4,8 @@ format:
         page-layout: full
 ---
 
-위에는 2단계 헤딩을 적용했음
+주제별로 요약한 How to 문서들의 모음
 
-### 타이틀 {.unnumbered .unlisted}
+# How to ... {.unnumbered .unlisted}
 
-위에는 2단계 헤딩을 적용했음
+구조를 잡는 중, [메인 페이지로](https://www.csmpub.com)
