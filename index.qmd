@@ -6,6 +6,6 @@ format:
 
 위에는 2단계 헤딩을 적용했음
 
-## 노트 목차  {.unnumbered .unlisted}
+### 타이틀 {.unnumbered .unlisted}
 
 위에는 2단계 헤딩을 적용했음

@@ -16,18 +16,24 @@ book:
         href: index.qmd
     right:
       - text: "Data Resources"
-        href: "https://www.csmpub.com/resources.html"
+        href: "https://data.csmpub.com/resources.html"
       - text: "Data Downloads"
-        href: "https://www.csmpub.com/resources.html"
-
-  draft-mode: visible
+        href: "https://data.csmpub.com/downloads.html"
 
   chapters:
     - index.qmd
-    - preface.qmd
-    - intro.qmd
-    - summary.qmd
+    - part: "computer"
+      chapters:
+        - computer/index.qmd
+        - computer/preface.qmd
+    - part: "R and RStudio"
+      chapters: 
+        - R_and_RStudio/intro.qmd
+        - R_and_RStudio/summary.qmd
     - references.qmd
+
+  appendices: 
+    - appendicies/cheatsheets.qmd
 
 bibliography: references.bib
 
