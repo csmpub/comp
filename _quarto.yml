@@ -4,45 +4,24 @@ project:
     - CNAME
 
 book:
-#  title: book
-
+  title: "How to ..."
   navbar:
-#    search: false
+    title: false
     left: 
-      - href: https://www.csmpub.com/index.html
-        text: Home
-
-    right:
-      - text: Comp
+      - text: "Wintree's"
+        href: "https://www.csmpub.com/index.html"
+      - text: "Home"
+        href: "https://www.csmpub.com/index.html"
+      - text: "How to ..."
         href: index.qmd
-      - text: Data
-        menu: 
-          - text: Data Resources
-            href: https://data.csmpub.com/index.html
-          - text: Data Downloads
-            href: https://data.csmpub.com/downloads.html
+    right:
+      - text: "Data Resources"
+        href: "https://www.csmpub.com/resources.html"
+      - text: "Data Downloads"
+        href: "https://www.csmpub.com/resources.html"
 
   draft-mode: visible
 
-#  sidebar:
-#    collapse-level: 3
-#    contents:
-#      - text: test message
-#      - index.qmd
-#    search: true
-#    title: browse
-#    search: true
-#    style: docked
-#    contents:
-#      - preface.qmd
-#      - section: start
-#        contents:  
-#          - intro.qmd
-#          - summary.qmd
-#      - references.qmd
-
-#  author: "Norah Jones"
-#  date: "11/22/2026"
   chapters:
     - index.qmd
     - preface.qmd
@@ -59,7 +38,7 @@ format:
       dark: [darkly, csmpub-dark.scss]
       light: [darkly, csmpub-light.scss]
 # flatkly - darkly / cosmo - cyborg / lumen - slate / yeti - uperhero
-
+    toc: true
   pdf:
     documentclass: scrreprt
 
