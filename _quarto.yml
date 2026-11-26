@@ -3,6 +3,9 @@ project:
   resources:
     - CNAME
 
+metadata-files: 
+  - _chapters.yml
+
 book:
   title: "How to ..."
   navbar:
@@ -19,18 +22,6 @@ book:
         href: "https://data.csmpub.com/resources.html"
       - text: "Data Downloads"
         href: "https://data.csmpub.com/downloads.html"
-
-  chapters:
-    - index.qmd
-    - part: "computer"
-      chapters:
-        - computer/index.qmd
-        - computer/preface.qmd
-    - part: "R and RStudio"
-      chapters: 
-        - R_and_RStudio/intro.qmd
-        - R_and_RStudio/summary.qmd
-    - references.qmd
 
   appendices: 
     - appendicies/cheatsheets.qmd

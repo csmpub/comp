@@ -1,0 +1,15 @@
+book:
+  chapters:
+    - index.qmd
+  
+    - part: "computer"
+      chapters:
+        - computer/index.qmd
+        - computer/preface.qmd
+
+    - part: "R and RStudio"
+      chapters: 
+        - R_and_RStudio/intro.qmd
+        - R_and_RStudio/summary.qmd
+
+  references: references.qmd
