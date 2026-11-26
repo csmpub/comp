@@ -4,58 +4,46 @@
     "href": "index.html",
     "title": "How to …",
     "section": "",
-    "text": "위에는 2단계 헤딩을 적용했음\n\n타이틀\n위에는 2단계 헤딩을 적용했음",
+    "text": "주제별로 요약한 How to 문서들의 모음\n\nHow to …\n구조를 잡는 중, 메인 페이지로",
     "crumbs": [
-      "How to ...",
-      "타이틀"
+      "Wintree's",
+      "How to ..."
     ]
   },
   {
-    "objectID": "computer/preface.html",
-    "href": "computer/preface.html",
-    "title": "Preface",
+    "objectID": "r_rstudio/base_r/r_base.html",
+    "href": "r_rstudio/base_r/r_base.html",
+    "title": "3  Introduction",
     "section": "",
-    "text": "This is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.",
+    "text": "3.1 reference\nThis is a book created from markdown and executable code.\nSee Knuth (1984년) for additional discussion of literate programming.",
     "crumbs": [
-      "How to ...",
-      "computer",
-      "Preface"
+      "Wintree's",
+      "R 및 RStudio",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Introduction</span>"
     ]
   },
   {
-    "objectID": "R_and_RStudio/intro.html",
-    "href": "R_and_RStudio/intro.html",
-    "title": "1  Introduction",
-    "section": "",
-    "text": "1.1 reference\nThis is a book created from markdown and executable code.\nSee Knuth (1984년) for additional discussion of literate programming.",
-    "crumbs": [
-      "How to ...",
-      "R and RStudio",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
-    ]
-  },
-  {
-    "objectID": "R_and_RStudio/intro.html#reference",
-    "href": "R_and_RStudio/intro.html#reference",
-    "title": "1  Introduction",
+    "objectID": "r_rstudio/base_r/r_base.html#reference",
+    "href": "r_rstudio/base_r/r_base.html#reference",
+    "title": "3  Introduction",
     "section": "",
     "text": "Knuth, Donald E. 1984년. “Literate Programming”. Comput. J. (USA) 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
     "crumbs": [
-      "How to ...",
-      "R and RStudio",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+      "Wintree's",
+      "R 및 RStudio",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Introduction</span>"
     ]
   },
   {
-    "objectID": "R_and_RStudio/summary.html",
-    "href": "R_and_RStudio/summary.html",
-    "title": "2  Summary",
+    "objectID": "r_rstudio/rs_summary.html",
+    "href": "r_rstudio/rs_summary.html",
+    "title": "4  Summary",
     "section": "",
     "text": "In summary, this book has no content whatsoever.",
     "crumbs": [
-      "How to ...",
-      "R and RStudio",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
+      "Wintree's",
+      "R 및 RStudio",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Summary</span>"
     ]
   },
   {
@@ -65,7 +53,7 @@
     "section": "",
     "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. (USA) 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
     "crumbs": [
-      "How to ...",
+      "Wintree's",
       "References"
     ]
   }
